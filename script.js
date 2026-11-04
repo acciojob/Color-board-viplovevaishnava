@@ -1,12 +1,7 @@
 //your JS code here. If required.
 
-const squareSize = 24;
-
-const columns = Math.floor(window.innerWidth / squareSize);
-const rows = Math.floor(window.innerHeight / squareSize);
-
-const totalSquares = columns * rows; const container = document.querySelector('.container');
-for (let i = 0; i < totalSquares; i++) {
+const container = document.querySelector('.container');
+for (let i = 0; i < 800; i++) {
     const squares = document.createElement('div')
     squares.classList.add('square')
     container.appendChild(squares)
